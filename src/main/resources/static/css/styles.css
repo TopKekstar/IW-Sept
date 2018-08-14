@@ -1,0 +1,97 @@
+.navegacion {
+  background-color: lightblue;
+  border-radius: 2px;
+}
+.navegacion a
+{
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 2em;
+  display: block;
+}
+.navegacion a:hover
+{
+  background-color: lightgrey;
+}
+.navegacion ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+.navegacion li{
+  float: left;
+
+}
+.red {
+  background-color: red;
+}
+
+/*
+  CSS para las pachangas
+*/
+.pachangas {
+padding: 15px;
+}
+.pachanga
+{
+    border-radius: 15px;
+    float: left;
+    overflow:hidden;
+    margin: 5px;
+    text-align: center;
+    background-color: lightgrey;
+    width: 30.9999%;
+    box-shadow: 0px 7px 7px 1px grey;
+}
+.pachanga::after {
+  clear:both;
+}
+
+@media only screen and (max-width: 800px)
+{
+  .pachanga
+  {
+    width: 45%;
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px)
+{
+  .pachanga
+  {
+    width: 99.9%;
+  }
+}
+.pachanga-img-holder
+{
+  padding: 5px;
+  width: inherit;
+  height: 300px;
+  width: auto;
+}
+.hora {
+  text-align: center;
+}
+
+.pachImg
+{
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
+}
+.pachanga-info
+{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}

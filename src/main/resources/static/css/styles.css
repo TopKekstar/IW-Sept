@@ -33,6 +33,14 @@
 }
 
 /*
+  CSS para el fondo
+*/
+
+.background {
+  background-color: beige;
+}
+
+/*
   CSS para las pachangas
 */
 .pachangas {
@@ -94,4 +102,71 @@ padding: 15px;
   display: flex;
   flex-direction: column;
   padding: 5px;
+}
+
+/*
+  LOGIN CSS
+*/
+
+.table {
+  background-color: lightgrey;
+  border-radius: 10px;
+}
+.login{
+
+}
+.signinform{
+  float: left;
+  padding: 10px;
+  display: block;
+  width: 45%;
+  text-align: center;
+  margin:10px;
+}
+@media only screen and (max-width: 500px) {
+  .signinform{
+    float: left;
+    padding: 10px;
+    display: block;
+    width: 90%;
+    margin: 5%;
+  }
+  .signinform button {
+    width: 100%;
+    height: 50px;
+  }
+
+}
+.signinform input {
+  margin: 2px;
+  float: none;
+}
+.signinform:last-child{
+    float: right;
+}
+.signinform input {
+  width: 80%;
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.signinform input:hover {
+  border: 1px solid black;
+}
+.signinform button {
+  background-color:  #85c1e9 ;
+  border-radius: 10px;
+  color: white;
+  width: 40%;
+  height: 40px;
+  border: none;
+}
+.signinform button:hover {
+ background-color:  #3498db;
+}
+.mar-top
+{
+  margin-top: 10px;
+
 }

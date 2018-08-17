@@ -10,7 +10,7 @@
 window.onload = function() {
 	// code in here will only be executed when page fully loaded
 	console.log("entered into chat");
-	
+
 	var socket = new WebSocket("${endpoint}");
 	$("#escrito").submit(function (e) {
 		var t = $("#texto").val();
@@ -27,13 +27,8 @@ window.onload = function() {
 
 <div class="starter-template">
 	<h1>Chat</h1>
-	<p class="lead">Ejemplo de uso de websockets</p>
 
-	<textarea id="recibido" cols="80" rows="10">
-	</textarea>
-	<form id="escrito">
 	<input id="texto" size="80" placeholder="escribe algo y pulsa enter para enviarlo"/>
-	</form>
 </div>
 
 <%@ include file="../jspf/footer.jspf"%>

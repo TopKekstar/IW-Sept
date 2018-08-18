@@ -37,7 +37,8 @@
 */
 
 .background {
-  background-color: beige;
+  background-image: linear-gradient(#cae4f5, #92cbee );
+  height: 100%;
 }
 
 /*
@@ -48,13 +49,12 @@ padding: 15px;
 }
 .pachanga
 {
-    border-radius: 15px;
+  display: block;
     float: left;
-    overflow:hidden;
-    margin: 5px;
+    overflow: hidden;
+    margin: 1%;
     text-align: center;
-    background-color: lightgrey;
-    width: 30.9999%;
+    width: 31.3%;
     box-shadow: 0px 7px 7px 1px grey;
 }
 .pachanga::after {
@@ -65,8 +65,8 @@ padding: 15px;
 {
   .pachanga
   {
-    width: 45%;
-    margin: 10px;
+    width: 48%;
+    margin: 1%;
   }
 }
 
@@ -74,7 +74,8 @@ padding: 15px;
 {
   .pachanga
   {
-    width: 99.9%;
+    width: 100%;
+    margin: 0;
   }
 }
 .pachanga-img-holder
@@ -109,7 +110,7 @@ padding: 15px;
 */
 
 .table {
-  background-color: lightgrey;
+  background-color: #f0f5c5;
   border-radius: 10px;
 }
 .login{
@@ -168,5 +169,47 @@ padding: 15px;
 .mar-top
 {
   margin-top: 10px;
-
 }
+ .profile
+ {
+   padding: 10px;
+ }
+ .title {
+   display: block;
+   float: right;
+   width: 70%;
+   text-align: left;
+   padding-top: 5%
+ }
+ .profile-photo
+ {
+   display: block;
+   width: 20%;
+   float left;
+ }
+ .profile-photo img
+ {
+   border: 1px solid black;
+   border-radius: 50%;
+   width: 80%;
+   object-fit: cover;
+ }
+ .clear
+ {
+   clear:both;
+   line-height: 0px;
+ }
+ .stats-other{
+   border-top: 1px solid lightgrey;
+   padding:5px;
+ }
+ .stats-left {
+   width: 40%;
+   display: block;
+   float: left;
+ }
+ .stats-right {
+   width: 40%;
+   display: block;
+   float: right;
+ }

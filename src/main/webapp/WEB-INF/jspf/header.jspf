@@ -13,9 +13,10 @@
     <!-- Bootstrap -->
     <link href="${s}/css/bootstrap.min.css" rel="stylesheet">
     <link href="${s}/css/starter-template.css" rel="stylesheet">
+    <link href="${s}/css/styles.css" rel="stylesheet" />
   </head>
   <body>
-  
+
       <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -33,7 +34,7 @@
             <li><a href="/login">Login</a></li>
             <li><a href="/admin">Admin</a></li>
             <li><a href="/upload">Upload</a></li>
-			<li><a href="/chat">Chat</a></li>                                   
+			<li><a href="/chat">Chat</a></li>
             <li><a href="/logout">Logout</a></li>
           </ul>
         </div><!--/.nav-collapse -->
